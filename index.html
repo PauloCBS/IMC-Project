@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto IMC</title>
+</head>
+<body>
+    <section>
+        <div class="alert__error">
+            Digite somente numeros!!
+        </div>
+
+        <div class="card">
+            <form action="" class="form__imc">
+                <h1 class="form__titulo">Cálculo de IMC</h1>
+                <div class="form__peso">
+                    <label class="form__peso__label" for="">Peso (kg)</label>
+                    <input class="form__peso__input" type="text" placeholder="60">
+                </div>
+                <div class="form__altura">
+                    <label class="form__altura__label" for="">Altura (cm)</label>
+                    <input class="form__altura__input" type="text" placeholder="165">
+                </div>
+                <button class="form__btn">
+                    Calcular IMC  <img src="./assets/arrow-up-right.svg" alt="">
+                </button>
+            </form>
+        </div>
+
+        <div class="modal__wrapper">
+            <div class="modal card">
+                <h2 class="title">
+                    Teste
+                </h2>
+                <button class="botao__close"><img src="./assets/closeIcon.png" alt="botao para fechar o pop-up"></button>
+            </div>
+        </div>
+    </section>
+    
+
+
+<script src="script.js" type="module"></script>
+</body>
+</html>
